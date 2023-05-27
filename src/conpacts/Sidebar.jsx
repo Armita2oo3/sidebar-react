@@ -37,7 +37,7 @@ export default function Sidebar({ children }) {
       <div style={{ width: isOpen ? "300px" : "50px" }} className="sidebar">
         <div className="top">
           <h1 style={{ display: isOpen ? "block" : "none" }} className="logo">
-            <a className="menu" href="./Homepage">
+            <a className="menu" href="../Homepage">
               Menu
             </a>
           </h1>
