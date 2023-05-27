@@ -37,7 +37,9 @@ export default function Sidebar({ children }) {
       <div style={{ width: isOpen ? "300px" : "50px" }} className="sidebar">
         <div className="top">
           <h1 style={{ display: isOpen ? "block" : "none" }} className="logo">
-            Menu
+            <a className="menu" href="./Homepage">
+              Menu
+            </a>
           </h1>
           <div style={{ marginLeft: isOpen ? "80px" : "0px" }} className="bars">
             <FaBars onClick={toggle} />

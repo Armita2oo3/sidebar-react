@@ -8,18 +8,20 @@ import Profile from "./pages/Profile";
 
 export default function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Sidebar>
-          <Routes>
-            <Route path="/" element={<Homepage />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/homepage" element={<Homepage />} />
-            <Route path="/profile" element={<Profile />} />
-          </Routes>
-        </Sidebar>
-      </BrowserRouter>
+    <div>
+      <div className="App">
+        <BrowserRouter>
+          <Sidebar>
+            <Routes>
+              <Route path="/" element={<Homepage />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/homepage" element={<Homepage />} />
+              <Route path="/profile" element={<Profile />} />
+            </Routes>
+          </Sidebar>
+        </BrowserRouter>
+      </div>
     </div>
   );
 }
