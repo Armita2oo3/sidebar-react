@@ -33,7 +33,7 @@ export default function Sidebar({ children }) {
     },
   ];
   return (
-    <div className="container">
+    <div className="box">
       <div style={{ width: isOpen ? "300px" : "50px" }} className="sidebar">
         <div className="top">
           <h1 style={{ display: isOpen ? "block" : "none" }} className="logo">

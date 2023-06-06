@@ -3,7 +3,8 @@
   padding: 0;
   text-decoration: none;
 }
-.container {
+
+.box {
   display: flex;
 }
 main {

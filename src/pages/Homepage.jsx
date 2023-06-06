@@ -1,9 +1,7 @@
 import React from "react";
 import "./style.css";
-export default function Homepage() {
-  return (
-    <div className="home">
-      <h1>Homepage</h1>
-    </div>
-  );
+import "bootstrap/dist/css/bootstrap.min.css";
+import Homepage from "../HomePage";
+export default function Homepage(props) {
+  return <HomePage />;
 }
