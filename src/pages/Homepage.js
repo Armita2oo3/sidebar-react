@@ -53,6 +53,7 @@ export default function Homepage() {
           🌑
         </button>
         <input type="checkbox" />
+        <Switch {...label} defaultChecked />
       </div>
     );
   }
